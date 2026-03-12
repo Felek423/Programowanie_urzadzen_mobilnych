@@ -1,3 +1,5 @@
+package lista2
+
 data class UserInput(val name: String?, val email: String?, val age: String?)
 
 data class UserProfile(
