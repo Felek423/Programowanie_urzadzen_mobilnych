@@ -10,9 +10,13 @@ build/
 local.properties
 *.hprof
 
-# Ignore root build files so only lista1 is tracked
+# Ignore root build files
 /build.gradle.kts
 /gradle.properties
 /gradlew
 /gradlew.bat
 /settings.gradle.kts
+
+# Ignore everything in zadanie1 except zadanie1.kt
+lista1/zadanie1/*
+!lista1/zadanie1/zadanie1.kt
