@@ -9,3 +9,10 @@ build/
 .cxx
 local.properties
 *.hprof
+
+# Ignore root build files so only lista1 is tracked
+/build.gradle.kts
+/gradle.properties
+/gradlew
+/gradlew.bat
+/settings.gradle.kts
